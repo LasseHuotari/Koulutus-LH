@@ -1,0 +1,26 @@
+
+Business Understanding
+CRISP-DM:n ensimmäinen vaihe on liiketoiminnan ymmärtäminen. Liiketoiminnan ym-märtämisen vaihe suoritetaan ennen kuin dataa tai työkaluja valitaan. Sen ideana on määrittää mitä ja miksi projektilla halutaan tavoittaa. Vaihe sisältää neljä primitiivistä teh-tävää, joista jokainen voi sisältää useamman alatehtävän. Neljä primitiivistä tehtävää ovat seuraavat:
+Liiketoiminnan tavoitteiden määritelmä
+Tilanteen määrittely
+Data-mining tavoitteiden määrittely
+Projektisuunnitelman tuottaminen
+
+Liiketoiminnan tavoitteiden määrittelyssä luodaan ymmärrys siitä mitä yrityksen liiketoiminta haluaa saavuttaa data-miningilla. Ensimmäinen asia on selvittää mikä on varsinainen ongelma, joka halutaan ratkaista. Toinen kysymys on määrittää selkeästi mitkä ovat liiketoiminnan tavoitteet, jotka saavutetaan, jos kyseinen ongelma saadaan ratkaistua. Kolmas selvitettävä on erilaiset rajoitteet, kuten projektille asetetun määräajan määritteleminen, sekä kuinka projekti tulee suorittaa. Neljäs selvitettävistä asioista on projektin vaikutukset. Vaikutuksilla tarkoitetaan asiassa yhteydessä sitä, miten ongelmaan kehitetty ratkaisu tulee sopimaan yrityksen nykyisen liiketoiminnan kanssa.
+
+Liiketoiminnan tavoitteiden määrittelystä tuotetaan kolme raporttia:
+Projektin tausta - raportissa kuvataan liiketoiminnan tilanne, joka ohjaa projektia. Oleellisena kysymyksenä raportissa on, miksi tämä projekti koetaan tarpeelliseksi, ja minkä takia haluamme sen toteuttaa.
+Liiketoiminnan tavoite–raportti, jossa kuvataan liiketoiminnan projektille asettamat tavoitteet. Raportti pyrkii vastaamaan kysymykseen siitä mitä projektilla tavoitellaan ja miten. Raportin asettamat tavoitteet ovat tarkkoja, mutta laajoja.
+Liiketoiminnan onnistumisen kriteerit, jossa kuvataan kaikki ne onnistumisen kriteerit, joilla liiketoiminta katsoo projektin onnistuneeksi. Asetetaanko esimerkiksi liiketoiminnasta saatavia tuloksia vertailuun ennen projektia tehtyihin havaintoihin nähden, ja näin selvitetään, onko projekti onnistunut.
+Tilanteen määrittelyssä tutkitaan yrityksen nykyistä tilannetta, ja sen valmiuksia suorittaa projekti. Siinä pureudutaan paljon syvemmälle itse liiketoiminnan asettamiin kriteereihin ja tavoitteisiin, ja tarkkaillaan miten käytettävissä olevat resurssit sopivat niihin. Raportointi perustuu faktapohjaiseen analyysiin yrityksen tilasta ja siitä tuotetaan seuraavat viisi raporttia:
+Resurssien inventaario: raportti käsittää kaiken projektin resursointiin liittyvän faktan. Siihen voidaan liittää tarvittavat henkilöt, koneet, data ja ohjelmistot. Resursseja ei listata voin data-miningin osalta, vaan kattavasti kaikki projektiin saatavilla olevat resurssit.
+Vaatimukset, olettamukset ja rajoitteet</b>-raportti: projektiin liittyvät vaatimukset, esimerkiksi jos projektin täytyy täyttää tiettyjä lain pykäliä, tai esimerkiksi tietoturvaan liittyvät vaatimukset. Jos projektissa esiintyy olettamuksia esimerkiksi jonkin lain tulkinnasta tai rajoitteita datan sensitiivisyyden osalta tulee nämä asiat kirjata tähän raporttiin. Tärkeimpänä on varmistaa pääsy dataan.
+Terminologia: raportti sisältää listauksen liiketoiminnan käyttämästä terminologiasta, jotka ovat relevanttia projektin osalta ja niiden selitykset.
+
+Kustannukset ja hyödyt: raportti kustannuksista ja projektin laskennallisista hyödyistä liiketoiminnan näkökulmasta. Arvio projektin kustannusten määrästä suhteutettuna pro-jektin hyötyihin.
+Data-mining tavoitteiden määrittelyssä tuotetaan kaksi raporttia, jotka kuvaavat data-mining tavoitteita ja onnistumiskriteerejä:
+Data-mining tavoitteet: määritellään data-miningin tuotokset, sisältäen määrittelyn tuotetuista raporteista, malleista ja prosessoidusta datasta. Myöskin mahdolliset analyysien esitykset on hyvä määritellä.
+Data-mining onnistumiskriteerit:määritellään tekniset kriteerit data-mining työlle, jotka ovat oleellista saavuttaa liiketoiminnan tavoitteiden saavuttamiseksi. Käytetään mahdollisuuksien mukaan tarkkoja lukuja esimerkiksi mallin tarkkuusprosentti tai ennustetarkkuuden parannusprosentti.
+Viimeinen osio liiketoiminnan ymmärtämisestä on projektisuunnitelman laatiminen, perustuen aikaisemmista kohdista saatuihin tietoihin. Tässä tehtävässä on kaksi alatehtävää, joista muodostuu kaksi raportti.
+Projektisuunnitelma: määritellään projektille tarkka projektisuunnitelma, jossa kuvataan tarkasti jokaisen vaiheen vaatima aika, vaiheen toteutukseen tarvittavat henkilöt (esimerkiksi erikoisosaajat aihealueesta), tarvittavat resurssit ja suunnitellut tuotokset. Lisäksi kuvataan tehtävien riippuvuussuhteet toisistaan ja luodaan tehtävien suorittamisjärjestys. Kuvataan kaikkien iteratiivisten osioiden sykli ja toistuvuus kerrat.
+Alustava työkalujen ja tekniikoiden valinta:raporttiin kuvataan data-mining tavoitteiden saavuttamiseksi vaadittavat työkalut ja tekniikat. Kuvataan omat resurssit ja nostetaan ylös ne tarpeet mitä ei ole saatavilla tai ovat puutteellisia.
