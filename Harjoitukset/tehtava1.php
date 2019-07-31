@@ -78,7 +78,22 @@
       <h4> <br>Liiketoiminnan Ymmärtäminen </h4>
       <p class="center"> <br>Ensimmäiseksi sinun tulee ymmärtää yrityksen liiketoiminnan perusperiaatteet ja muut tarvittavat asiat, jotka saattavat olla tekemäsi projektin kohdalta relevantteja tietoja liiketoiminnan kannalta. Tätä vaihetta kutsutaan liiketoiminnan ymmärtämiseksi.</p>
       <p class="center"> <br>Lue nyt alla oleva Business understanding taustatieto</p>
-      <div><p><?php include('bu.txt'); ?></p></div>
+      <div1>
+      <script>
+      var txtFile = new XMLHttpRequest();
+      var allText = "file not found";
+      txtFile.onreadystatechange = function () {
+        if (txtFile.readyState === XMLHttpRequest.DONE && txtFile.status == 200) {
+          allText = txtFile.responseText;
+          allText = allText.split("\n").join("<br>");
+        }
+
+        document.getElementById('txt').innerHTML = allText;
+      }
+      txtFile.open("GET", 'bu.txt', true);
+      txtFile.send(null);
+    </script>
+    </div1>
     </div>
     <a href="tehtava1.1.html" class="button1" style="vertical-align:middle"><span>Jatka</span> </a>
   </div>
