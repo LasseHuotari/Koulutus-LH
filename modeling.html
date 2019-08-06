@@ -26,18 +26,28 @@
   <nav>
     <ul>
       <li><a href="crisp.html">CRISP-DM</a></li>
-      <li><a href="bu.html">Business Understanding</a></li>
-      <li><a href="du.html">Data Understanding</a></li>
-      <li><a href="dp.html">Data Preparation</a></li>
-      <li><a href="modeling.html">Modeling</a></li>
-      <li><a href="eva.html">Evalution</a></li>
-      <li><a href="depl.html">Deployment</a></li>
+      <li><a href="bu.html">Liiketoiminnan ymmärtäminen</a></li>
+      <li><a href="du.html">Datan ymmärtäminen</a></li>
+      <li><a href="dp.html">Data valmistelu</a></li>
+      <li><a href="modeling.html">Mallinnus</a></li>
+      <li><a href="eva.html">Arviointi</a></li>
+      <li><a href="depl.html">Tuotteistaminen</a></li>
     </ul>
   </nav>
 
   <article>
-    <h2>Modeling</h2>
-    <p>päläpälä</p>
+    <h2>Mallinnus</h2>
+    <p>Mallintaminen on CRISP-DM:n neljäs vaihe, ja sillä tarkoitetaan muokatun ja puhdistetun datan mallintamista malliksi, joka täyttää data-mining tavoitteet ja vastaa liiketoiminnan asettamiin tavoitteisiin. Mallinnuksella tarkoitetaan esimerkiksi koneoppivan, tai syväoppivan algoritmin opettamista datasta. Opetetulla mallilla voidaan ennustaa haluttua tähtäinmuuttujaa. Mallintaminen koostuu neljästä tehtävästä, joilla on useita alatehtäviä.</p>
+    <p>Mallintamisen ensimmäinen tehtävä on mallinnustekniikan valinta. Mallinnustekniikan valinnalla tarkoitetaan lopullista valintaa eri mallien välillä. Mallinnustekniikoita voidaan valita myös useita, mutta silloin mallinnuksen kaikki tehtävät on toistettava jokaiselle mallinnustekniikalle erikseen. Mallinnustekniikan valinnassa tuotetaan kaksi raporttia.</p>
+    <p><b>Mallinnustekniikka:</b> raporttiin kuvataan tarkasti käytettävä mallinnustekniikka ja mallinnuksen ominaisuudet.</p>
+    <p><b>Mallinnuksen olettamukset:</b> kuvataan kaikki olettamukset, joita mallinnustekniikka tekee. Jotkut mallinnustekniikat vaativat esimerkiksi, ettei datassa ole puuttuvia arvoja, tai sen käyttämä datan jakauma asettuu tietylle välille. Kaikki tällaiset olettamukset tulee kirjata ylös.</p>
+    <p>Toisena tehtävänä on mallinnuksen testauksen suunnittelu. Mallintestaussuunnitelmalla varmistetaan, että rakennettua mallia voidaan testata ja sillä saadut tulokset voidaan validoida. Testaussuunnitelmaan kuvataan testauksessa käytetyt metodit ja testauksen proseduuri. Proseduurilla tarkoitetaan sitä mallin testausmenetelmien ketjua, jonka avulla mallin tarkkuus voidaan varmentaa. Testausmenetelmillä tarkoitetaan kuhunkin malliin soveltuvia testausmenetelmiä, esimerkiksi klassifioivissa malleissa käytetään yleisesti erilaisia virherajoja. Mallin testaussuunnitelmaan kuuluu myös aiotun opetus- ja testi-datan jaottelusuhde. Tehtävästä tehdään yksi raportti.</p>
+    <p><b>Testaussuunnitelma:</b> raporttiin kuvataan mallin koulutuksen, testauksen ja validoinnin suunnitelma. Primäärikomponenttina raportissa on koulutus-, testaus- ja validointidatan suhteet, sekä käytettävät mallintarkkuuteen viittaavat menetelmät.</p>
+    <p>Kolmantena mallinnuksen tehtävänä on itse mallin rakentaminen valitulla/valituilla mallinnustekniikoilla, käyttäen aikaisemmissa vaiheissa valmisteltua ja validoitua dataa. Mallin rakentamisesta muodostetaan yksi raportti.</p>
+    <p><b>Malliraportti:</b> Raporttiin sisällytetään kuvaus käytetyistä mallista, sisältäen kattavan läpikäynnin mallin ominaisuuksista ja rakennusvaiheessa sattuneista ongelmista, sekä niiden ratkaisuista. Raporttiin kuvataan myös mallien käyttämät parametrit ja valittujen parametrien valintaperusteet. Malliraporttiin liitetään myös itse mallit, jos mallit on mahdollista saada tiedostona, niin nämä tiedostot liitetään osaksi raporttia.</p>
+    <p>Viimeisenä mallinnuksen tehtävänä on mallin arviointi. Mallin arvioinnissa tehdään johtopäätöksiä toimiala osaamisen, data-mining kriteerien ja testaussuunnitelman mukaan. Tavoitteena on arvioida mallinnussovellusta ja sen löydöksiä tekniseltä näkökulmalta. Ensimmäisen arvioinnin jälkeen, arvioidaan data-mining tulosten soveltuvuutta liiketoi-minnan kontekstiin. Mallin arvioimisessa keskitytään, vain mallin itsensä arvioitiin, kun taas seuraavassa CRISP-DM vaiheessa keskitytään koko projektin arviointiin. Mallin arvioinnista tuotetaan yksi raportti.</p>
+    <p><b>Mallin arviointi:</b> Listataan kaikkien mallien ominaisuudet, kuten niiden tarkkuus, koulutusaika ja virheet. Verrataan niitä toisien mallinen vastaaviin ominaisuuksiin ja ne järjes-tetään toisiinsa nähden paremmuus järjestyksessä valittujen kriteerien mukaan. Mallinnuskierrosten jatkuessa, myös mallien uudistetut parametrit kirjataan mallin arviointi – raporttiin, jotta nähdään millä asetuksilla malli on kehittymässä mihinkin suuntaan.</p>
+
   </article>
   </section>
 
