@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Data Science oppimisporttaali</title>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" type="text/css" href="../mystyle.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -11,7 +11,7 @@
   <div class="hero-image">
     <div class="hero-text">
     <h1 style="font-size:50px">Data Science</h1>
-    <h3>Uuden ajan tiedettä</h3>
+    <h3>New level of innovation </h3>
   </div>
   </div>
 
@@ -30,42 +30,42 @@
             <div class="step">
                 <div class="step-image"><span></span></div>
                 <div class="step-current">Vaihe 1</div>
-                <div class="step-description">Business Understanding</div>
+                <div class="step-description">Liiketoiminnan ymmärtäminen</div>
             </div>
         </li>
         <li style="width:16.6%;">
             <div class="step">
                 <div class="step-image"><span></span></div>
                 <div class="step-current">Vaihe 2</div>
-                <div class="step-description">Data Understanding</div>
+                <div class="step-description">Datan Ymmärtäminen</div>
             </div>
         </li>
         <li style="width:16.6%;">
             <div class="step">
                 <div class="step-image"><span></span></div>
                 <div class="step-current">Vaihe 3</div>
-                <div class="step-description">Data Preparation</div>
+                <div class="step-description">Datan Valmistelu</div>
             </div>
         </li>
         <li style="width:16.6%;">
             <div class="step">
                 <div class="step-image"><span></span></div>
                 <div class="step-current">Vaihe 4</div>
-                <div class="step-description">Modeling</div>
+                <div class="step-description">Mallintaminen</div>
             </div>
         </li>
         <li style="width:16.6%;">
             <div class="step">
                 <div class="step-image"><span></span></div>
                 <div class="step-current">Vaihe 5</div>
-                <div class="step-description">Evaluation</div>
+                <div class="step-description">Arviointi</div>
             </div>
         </li>
         <li style="width:16.6%;">
             <div class="step">
                 <div class="step-image"><span></span></div>
                 <div class="step-current">Vaihe 6</div>
-                <div class="step-description">Deployment</div>
+                <div class="step-description">Tuotteistaminen</div>
             </div>
         </li>
 
@@ -76,18 +76,27 @@
       <p class="center"> Olet aloittanut juuri IBM:llä ja sinut on kutsuttu ensimmäiseen palaveriin liittyen asiakkaalle toteutettavaan projektiin. Kokouksen tavoitteena on valmistella ensimmäistä asiakastapaamista.
       Myyjä on sopinut asiakkaan kanssa että IBM suorittaa asiakkaan antamasta datasta Data-Analytiikan harjoituksen, sekä kokeilee onko datasta mahdollisuutta rakentaa tuotantokelpoinen malli. Sinun tehtävsi on tehdä tämä analytiikka harjoitus, ja mallintaa sen pohjalta koneoppivamalli.
       Onnistuaksesi työssäsi, tulee sinun Data Scientistinä selvittää asiakkaalta perusedellytyksiä projekstiin. Tiedät ettei kokeilua ole järkevää tehdä, ellei taustalla ole liiketoiminnallinen syy, josta voi olla hyötyä asiakasyritykselle tulevaisuudessa.<br></p>
-
-      <img src="images/CRISPDM-2.png" class="center" alt="CRISP Kaavio" width="625" height="500"></img>
-
       <h4> <br>Liiketoiminnan Ymmärtäminen </h4>
       <p class="center"> <br>Ensimmäiseksi sinun tulee ymmärtää yrityksen liiketoiminnan perusperiaatteet ja muut tarvittavat asiat, jotka saattavat olla tekemäsi projektin kohdalta relevantteja tietoja liiketoiminnan kannalta. Tätä vaihetta kutsutaan liiketoiminnan ymmärtämiseksi.</p>
       <p class="center"> <br>Lue nyt alla oleva Business understanding taustatieto</p>
+      <div1>
+      <script>
+      var txtFile = new XMLHttpRequest();
+      var allText = "file not found";
+      txtFile.onreadystatechange = function () {
+        if (txtFile.readyState === XMLHttpRequest.DONE && txtFile.status == 200) {
+          allText = txtFile.responseText;
+          allText = allText.split("\n").join("<br>");
+        }
 
-
-    <p class="center" id="txt"></p>
-    <a href="tehtava1.1.html" class="button1" style="vertical-align:middle"><span>Jatka</span> </a>
+        document.getElementById('txt').innerHTML = allText;
+      }
+      txtFile.open("GET", 'bu.txt', true);
+      txtFile.send(null);
+    </script>
+    </div1>
     </div>
-
+    <a href="tehtava1.1.html" class="button1" style="vertical-align:middle"><span>Jatka</span> </a>
   </div>
 
   <div id="footer"> &copy; Lasse Huotari</div>
