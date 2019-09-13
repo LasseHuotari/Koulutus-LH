@@ -4,4 +4,4 @@
 
 2. Valitse oikealta ylhäältä työkalu riviltä **Catalog** nappi.
 
-![](WatsonStudioStart/catalog.png)
+![](images/catalog.png)
