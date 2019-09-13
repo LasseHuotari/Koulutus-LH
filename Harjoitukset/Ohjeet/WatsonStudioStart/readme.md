@@ -8,26 +8,26 @@
 
 3. Käytä hakutoimintoa ja etsi Watson Studio
 
-![](images/wssearch)
+![](images/wssearch.png)
 
 4. Valitse Watson Studio
 
 5. Valitse Regioniksi Frankfurt
 
-![](images/wsregion)
+![](images/wsregion.png)
 
 6. Varmista että Lite plan on valittu
 
-![](images/WSLite)
+![](images/WSLite.png)
 
 7. Rullaa alas ja nimeä Watson Studio esimerkiksi omilla nimikirjaimilla
 
-![](images/wsname)
+![](images/wsname.png)
 
 8. Paina **Create**
 
-![](images/wscreate)
+![](images/wscreate.png)
 
 9. Saat näkyviin alla olevan ikkunan. Paina **Get Started** ja pääset Watson Studio ympäristöösi.
 
-![](images/wsgetstarted)
+![](images/wsgetstarted.png)
