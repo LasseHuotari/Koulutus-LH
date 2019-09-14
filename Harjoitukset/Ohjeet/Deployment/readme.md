@@ -28,3 +28,11 @@ Kuten mainittua tämän harjoituksen tarkoituksena on tehdä asiakkaalle rest-AP
 
 ![](images/openflow.png)
 
+7. Poista valitsemasi mallin ja type noden välissä oleva viiva klikkaamalla viivaa hiiren oikealla napilla ja painamalla **Delete**
+
+![](images/delete.png)
+
+8. Raahaa import valikon alta **User Input** node kanvakselle ja yhdistä se kultaisen malli noden vasempaan reunaan.
+
+![](images/userinput)
+
