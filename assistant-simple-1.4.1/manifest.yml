@@ -1,5 +1,5 @@
 applications:
-- name: Business-Understanding
+- name: LY_chat
   command: npm start
   path: .
   memory: 256M
