@@ -34,5 +34,5 @@ Kuten mainittua tämän harjoituksen tarkoituksena on tehdä asiakkaalle rest-AP
 
 8. Raahaa import valikon alta **User Input** node kanvakselle ja yhdistä se kultaisen malli noden vasempaan reunaan.
 
-![](images/userinput)
+![](images/userinput.png)
 
