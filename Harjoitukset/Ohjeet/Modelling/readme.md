@@ -26,7 +26,7 @@ Nyt on aika rakentaa itse malli. Käy läpi raportti vielä kerran ja aloita sit
 
 7. Avaa **fiel operations** valikko vasemmalta, etsi **Type** node, raahaa se kanvakselle, ja yhdistä äskön lisäämämme **Data asset** nodeen.
 
-1[](images/type.png)
+![](images/type.png)
 
 8. Seuraavaksi muokkaamme **Type** noden asetuksia. Tupla klikkaa **Type** nodea. Vaihdat seuraavat kohdat:
 
@@ -73,5 +73,3 @@ Paina tämän jälkeen **Save**
 20. Mallissa kavakselle on tuotu uusi K-Means node, ja se on yhdistetty **Type** nodeen. Tarkoituksena on parantaa mallin soveltuvuutta muuttamalla sen asetuksia. Pääset muuttamaan asetuksia tuplaklikkaamalla vihreää malli nodea. K-Means klusteroinnin mallinsopivuuden parantaminen tapahtuu klustereiden määrän muokkauksella. Avaa valikosta **Build Options** valikkoa, ja siellä voit muokata klustereiden määrää kohdassa **Number Of Clusters** Kokeile eri arvoja, ja kouluta malli aikaisemmin esitetyllä tavalla. Suorita mallille samoja arviointi toimenpiteitä kuin aikaisemmin teimme, ja dokumentoi nämä raporttiin.
 
 ![](images/secondmodel.png)
-
-![](images/newmodel.png)
