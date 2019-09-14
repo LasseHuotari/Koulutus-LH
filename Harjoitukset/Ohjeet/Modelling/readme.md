@@ -10,7 +10,7 @@ Nyt on aika rakentaa itse malli. Käy läpi raportti vielä kerran ja aloita sit
 
 3. Tuo kanvakselle uusi **Data Asset** node import valikon alta.
 
-![](images/dataimport.pmg)
+![](images/dataimport.png)
 
 4. Tupla klikkaa tuomaasi **Data asset** nodea ja valitse **Change data asset**
 
