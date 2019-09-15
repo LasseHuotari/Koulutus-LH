@@ -34,7 +34,7 @@ Nyt on aika rakentaa itse malli. Käy läpi raportti vielä kerran ja aloita sit
 
 Paina tämän jälkeen **Save**
 
-![](images/typeconf.png)
+![](images/typeconf2.png)
 
 9. Seuraavaksi tuomme itse mallin kanvakselle. Avaa **Modelling** valikko ja raahaa **K-Means** node kanvakselle, ja yhdistä se **Type** nodeen.
 
