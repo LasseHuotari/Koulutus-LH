@@ -36,3 +36,23 @@ Kuten mainittua tämän harjoituksen tarkoituksena on tehdä asiakkaalle rest-AP
 
 ![](images/userinput.png)
 
+9. Tupla klikkaa **User input** nodea ja paina **Define fields**
+
+![](images/definefields.png)
+
+10. paina **Add value**
+
+![](images/addvalue.png)
+
+11. Kirjoita **Fields** kohtaan **Age**, vaihda **Storage** arvo **Integer** muotoon, ja paina **Edit** kuvaketta.
+
+![](images/valueedit.png)
+
+12. Anna iäksi jokin esimerkki arvo, esimerkiksi **28**. Ja paina **OK**
+
+![]images/assignvalue.png)
+
+13. Toista sama Muuttujille_
+
+* Annual Income (k$)
+* Spending Score (1-100)
