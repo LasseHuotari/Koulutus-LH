@@ -67,7 +67,7 @@ Kuten mainittua tämän harjoituksen tarkoituksena on tehdä asiakkaalle rest-AP
 
 16. Tupla klikkaa avautuvasta **Outputs** valikosta **Table (4 fields, 1 recors)** kuvaketta.
 
-![](images/pediction.png)
+![](images/prediction.png)
 
 17. Nyt näät itse ennusteen tuloksen. Sarake $KM-K-Means kertoo mihin segmenttiin kyseinen asiakas ennusteen mukaan kuuluisi. Oma tuloksesi saattaa poiketa alla näkyvästä, koska saatoit valita eri määrän klustereita omaan malliisi, mutta taulukon rakenne pitäisi olla sama.
 
@@ -75,7 +75,7 @@ Kuten mainittua tämän harjoituksen tarkoituksena on tehdä asiakkaalle rest-AP
 
 18. Palaa kanvakselle painamalla flow nimeä.
 
-![](imgages/back2canvas.png)
+![](images/back2canvas.png)
 
 19. Seuraavaksi vie hiiri jälleen **Table** noden päälle ja valitse kolme pistettä, ja paina **Save branch as a model**
 
