@@ -50,7 +50,7 @@ Kuten mainittua tämän harjoituksen tarkoituksena on tehdä asiakkaalle rest-AP
 
 12. Anna iäksi jokin esimerkki arvo, esimerkiksi **28**. Ja paina **OK**
 
-![]images/assignvalue.png)
+![](images/assignvalue.png)
 
 13. Toista sama Muuttujille_
 
