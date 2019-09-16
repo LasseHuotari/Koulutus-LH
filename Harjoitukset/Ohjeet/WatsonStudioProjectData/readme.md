@@ -2,7 +2,7 @@
 
 1. Kirjaudu sisään Watson Studio ympäristöösi, jos ehdit sulkemaan välilehden pääset sinne takaisin <a href="eu-de.dataplatform.cloud.ibm.com">tästä</a>
 
-2. Paina **Create a Prject** nappia.
+2. Paina **Create a Project** nappia.
 
 ![](images/createproject.png)
 
